@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<title>BookClub</title>
+		<link rel="stylesheet" href="mhw3.css">
+		<link rel="preconnect" href="https://fonts.googleapis.com">
+		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+		<link href="https://fonts.googleapis.com/css2?family=Charm&display=swap" rel="stylesheet">
+		<link href="https://fonts.googleapis.com/css2?family=Charm&family=Libre+Baskerville&display=swap" rel="stylesheet">
+		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+		<script src="script.js" defer="true"></script>
+	</head>
+	<body>
+		<nav>
+				<span id="logo">BookClub</span>
+				<div id="mobile-menu"></div>
+				<div>
+		
+				</div>
+		</nav>
+		<section>
+			<div class="column-1">
+				<div class="column-1-item">
+					<div id="circle"></div>
+					<h3>Bentornato, Adrian Ghinea!</h3>
+					<span id="underline"></span>
+				</div>
+				<div class="column-1-item">
+					<h3>Cerca libro</h3>
+					<form name="search-content" id="search-content">
+						<input type="text" name="content" id="content" placeholder="Titolo / Autore / ISBN">
+						<input type="submit" class="submit">
+					</form>
+				</div>
+				<div id="spot-player" class="column-1-item">
+					<input type="button" id="recommendations" class="submit" value="Ecco della musica per te">
+					<iframe allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
+				</div>
+			</div>
+			<div class="column-2">
+				<div id="flex-container" class="hidden">
+				</div>
+			</div>
+		</section>
+	</body>
+</html>
